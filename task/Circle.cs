@@ -36,7 +36,7 @@ namespace task
         }
         public override void GetInfo()
         {
-            Console.WriteLine($"----{_name}----\nПлоща: {CalculateArea()}\nПериметр: {CalculatePerimeter()}\n");
+            Console.WriteLine($"----{_name}----\nПлоща: {CalculateArea():N2}\nПериметр: {CalculatePerimeter():N2}\n");
         }
     }
 }

@@ -19,7 +19,7 @@ namespace task
             set
             {
                 if (value < 0)
-                    throw new ArgumentOutOfRangeException("Відстани ширини не може бути від'ємною");
+                    throw new ArgumentOutOfRangeException("Відстань ширини не може бути від'ємною");
                 _width = value;
             }
         }
@@ -31,7 +31,7 @@ namespace task
             set
             {
                 if (value < 0)
-                    throw new ArgumentOutOfRangeException("Відстани довжини не може бути від'ємною");
+                    throw new ArgumentOutOfRangeException("Відстань довжини не може бути від'ємною");
                 _height = value;
             }
         }
@@ -52,7 +52,7 @@ namespace task
         }
         public override void GetInfo()
         {
-            Console.WriteLine($"----{_name}----\nПлоща: {CalculateArea()}\nПериметр: {CalculatePerimeter()}\n");
+            Console.WriteLine($"----{_name}----\nПлоща: {CalculateArea():N2}\nПериметр: {CalculatePerimeter():N2}\n");
         }
     }
     

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\\u0414\u043C\u0438\u0442\u0440\u043E\\\u043A\u0443\u0440\u0441\u0438\\Sana\\Sana06\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A090AAF6-87ED-4AC2-8202-6F5009B5F23E}|task\\task.csproj|c:\\\u0434\u043C\u0438\u0442\u0440\u043E\\\u043A\u0443\u0440\u0441\u0438\\sana\\sana06\\task\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A090AAF6-87ED-4AC2-8202-6F5009B5F23E}|task\\task.csproj|solutionrelative:task\\triangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A090AAF6-87ED-4AC2-8202-6F5009B5F23E}|task\\task.csproj|c:\\\u0434\u043C\u0438\u0442\u0440\u043E\\\u043A\u0443\u0440\u0441\u0438\\sana\\sana06\\task\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A090AAF6-87ED-4AC2-8202-6F5009B5F23E}|task\\task.csproj|solutionrelative:task\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,32 +35,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Triangle.cs",
+              "DocumentMoniker": "C:\\\u0414\u043C\u0438\u0442\u0440\u043E\\\u043A\u0443\u0440\u0441\u0438\\Sana\\Sana06\\task\\Triangle.cs",
+              "RelativeDocumentMoniker": "task\\Triangle.cs",
+              "ToolTip": "C:\\\u0414\u043C\u0438\u0442\u0440\u043E\\\u043A\u0443\u0440\u0441\u0438\\Sana\\Sana06\\task\\Triangle.cs",
+              "RelativeToolTip": "task\\Triangle.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T19:09:58.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Rectangle.cs",
               "DocumentMoniker": "C:\\\u0414\u043C\u0438\u0442\u0440\u043E\\\u043A\u0443\u0440\u0441\u0438\\Sana\\Sana06\\task\\Rectangle.cs",
               "RelativeDocumentMoniker": "task\\Rectangle.cs",
               "ToolTip": "C:\\\u0414\u043C\u0438\u0442\u0440\u043E\\\u043A\u0443\u0440\u0441\u0438\\Sana\\Sana06\\task\\Rectangle.cs",
               "RelativeToolTip": "task\\Rectangle.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwDYAAABwAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAA7wDQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-15T18:59:45.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Circle.cs",
               "DocumentMoniker": "C:\\\u0414\u043C\u0438\u0442\u0440\u043E\\\u043A\u0443\u0440\u0441\u0438\\Sana\\Sana06\\task\\Circle.cs",
               "RelativeDocumentMoniker": "task\\Circle.cs",
               "ToolTip": "C:\\\u0414\u043C\u0438\u0442\u0440\u043E\\\u043A\u0443\u0440\u0441\u0438\\Sana\\Sana06\\task\\Circle.cs",
               "RelativeToolTip": "task\\Circle.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCYAAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-15T18:44:08.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Shape.cs",
               "DocumentMoniker": "C:\\\u0414\u043C\u0438\u0442\u0440\u043E\\\u043A\u0443\u0440\u0441\u0438\\Sana\\Sana06\\task\\Shape.cs",
               "RelativeDocumentMoniker": "task\\Shape.cs",
@@ -68,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\\u0414\u043C\u0438\u0442\u0440\u043E\\\u043A\u0443\u0440\u0441\u0438\\Sana\\Sana06\\task\\Program.cs",
               "RelativeDocumentMoniker": "task\\Program.cs",
