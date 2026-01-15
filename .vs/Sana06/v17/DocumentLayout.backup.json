@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\\u0414\u043C\u0438\u0442\u0440\u043E\\\u043A\u0443\u0440\u0441\u0438\\Sana\\Sana06\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A090AAF6-87ED-4AC2-8202-6F5009B5F23E}|task\\task.csproj|c:\\\u0434\u043C\u0438\u0442\u0440\u043E\\\u043A\u0443\u0440\u0441\u0438\\sana\\sana06\\task\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A090AAF6-87ED-4AC2-8202-6F5009B5F23E}|task\\task.csproj|solutionrelative:task\\shape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A090AAF6-87ED-4AC2-8202-6F5009B5F23E}|task\\task.csproj|c:\\\u0434\u043C\u0438\u0442\u0440\u043E\\\u043A\u0443\u0440\u0441\u0438\\sana\\sana06\\task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A090AAF6-87ED-4AC2-8202-6F5009B5F23E}|task\\task.csproj|solutionrelative:task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,15 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Shape.cs",
+              "DocumentMoniker": "C:\\\u0414\u043C\u0438\u0442\u0440\u043E\\\u043A\u0443\u0440\u0441\u0438\\Sana\\Sana06\\task\\Shape.cs",
+              "RelativeDocumentMoniker": "task\\Shape.cs",
+              "ToolTip": "C:\\\u0414\u043C\u0438\u0442\u0440\u043E\\\u043A\u0443\u0440\u0441\u0438\\Sana\\Sana06\\task\\Shape.cs",
+              "RelativeToolTip": "task\\Shape.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T18:29:33.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\\u0414\u043C\u0438\u0442\u0440\u043E\\\u043A\u0443\u0440\u0441\u0438\\Sana\\Sana06\\task\\Program.cs",
               "RelativeDocumentMoniker": "task\\Program.cs",
               "ToolTip": "C:\\\u0414\u043C\u0438\u0442\u0440\u043E\\\u043A\u0443\u0440\u0441\u0438\\Sana\\Sana06\\task\\Program.cs",
               "RelativeToolTip": "task\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T18:26:48.28Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T18:26:48.28Z"
             }
           ]
         }
