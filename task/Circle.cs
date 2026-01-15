@@ -9,7 +9,7 @@ namespace task
     public class Circle : Shape
     {
         private double _radius;
-        private string _name = "Коло";
+        public string Name = "Коло";
 
         public Circle(double radius)
         {
@@ -36,7 +36,11 @@ namespace task
         }
         public override void GetInfo()
         {
-            Console.WriteLine($"----{_name}----\nПлоща: {CalculateArea():N2}\nПериметр: {CalculatePerimeter():N2}\n");
+            Console.WriteLine($"----{Name}----\nПлоща: {CalculateArea():N2}\nПериметр: {CalculatePerimeter():N2}\n");
+        }
+        public override string GetName()
+        {
+            return Name;
         }
     }
 }

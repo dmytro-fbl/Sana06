@@ -11,5 +11,6 @@ namespace task
         public abstract double CalculateArea();
         public abstract double CalculatePerimeter();
         public abstract void GetInfo();
+        public abstract string GetName();
     }
 }

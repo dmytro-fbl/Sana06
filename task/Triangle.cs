@@ -8,7 +8,7 @@ namespace task
 {
     public class Triangle : Shape
     {
-        private string _name = "Трикутник";
+        public string Name = "Трикутник";
         private double _side1;
         private double _side2;
         private double _side3;
@@ -27,11 +27,17 @@ namespace task
                 _side3 = value.s3;
             }
         }
+        public Triangle(double side1, double side2, double side3)
+        {
+            Sides = (side1, side2, side3);
+        }
 
         public override double CalculateArea()
         {
             double p = CalculatePerimeter() / 2;
-            return Math.Sqrt((p * (p - _side1) * p * (p - _side2) * p * (p - _side3)));
+            double res = p * (p - _side1) * (p - _side2) * (p - _side3);
+            Console.WriteLine(res);
+            return Math.Sqrt(res);
         }
 
         public override double CalculatePerimeter()
@@ -41,7 +47,11 @@ namespace task
 
         public override void GetInfo()
         {
-            Console.WriteLine($"----{_name}----\nПлоща: {CalculateArea():N2}\nПериметр: {CalculatePerimeter():N2}\n");
+            Console.WriteLine($"----{Name}----\nПлоща: {CalculateArea():N2}\nПериметр: {CalculatePerimeter():N2}\n");
+        }
+        public override string GetName()
+        {
+            return Name;
         }
     }
 }

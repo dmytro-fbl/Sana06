@@ -8,7 +8,7 @@ namespace task
 {
     public class Rectangle : Shape
     {
-        private string _name = "Прямокутник";
+        public string Name = "Прямокутник";
         private double _width;
         private double _height;
 
@@ -52,7 +52,11 @@ namespace task
         }
         public override void GetInfo()
         {
-            Console.WriteLine($"----{_name}----\nПлоща: {CalculateArea():N2}\nПериметр: {CalculatePerimeter():N2}\n");
+            Console.WriteLine($"----{Name}----\nПлоща: {CalculateArea():N2}\nПериметр: {CalculatePerimeter():N2}\n");
+        }
+        public override string GetName()
+        {
+            return Name;
         }
     }
     
